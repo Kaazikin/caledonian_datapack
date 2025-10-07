@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lectern"
+    },
+    "title": "Viva la Caledonian",
+    "description": "Kill all 3 admins",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "kaaz_test:adventure/deicide",
+  "criteria": {
+    "kill_kaaz": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player",
+          "nbt": "{UUID:[I;-315657532,-999928964,-1426833445,1916594473]}"
+        }
+      }
+    },
+    "kill_twelve": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player",
+          "nbt": "{UUID:[I;2062747851,-2008006259,-2053521484,452348044]}"
+        }
+      }
+    },
+    "kill_visquit": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player",
+          "nbt": "{UUID:[I;-1845322093,-39108139,-2093654678,-582198035]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["kill_kaaz"],
+    ["kill_twelve"],
+    ["kill_visquit"]
+  ],
+  "rewards": {
+    "experience": 2500
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_mushroom"
+    },
+    "title": "Mushroom!",
+    "description": "Milk Agonnie..?",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "milk_agonnie": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:bowl"
+        },
+        "entity": {
+          "type": "minecraft:player",
+          "components": {
+            "minecraft:profile": {
+              "id": [
+                1569874289,
+                154094525,
+                -1164471011,
+                128755617
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "milk_agonnie"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "minecraft:blocks/red_mushroom"
+    ],
+    "experience": 1
+  }
+}

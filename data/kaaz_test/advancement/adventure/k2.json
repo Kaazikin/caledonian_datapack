@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mace",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": "Reach For The Summit",
+    "description": "Execute K2MTN with a mace",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/revaulting",
+  "criteria": {
+    "k2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:mace",
+              "count": 1
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:player",
+          "nbt": "{UUID:[I;-1665704117,-1708767752,-1535994059,2007818595]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "k2"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "minecraft:spawners/trial_chamber/key"
+    ],
+    "experience": 250
+  }
+}

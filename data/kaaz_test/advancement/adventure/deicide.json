@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_golden_apple"
+    },
+    "title": "No gods, no kings",
+    "description": "Kill an admin",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/kill_a_mob",
+  "criteria": {
+    "god_killer": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player",
+          "nbt": "{Tags:[\"admin\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "god_killer"
+    ]
+  ],
+  "rewards": {
+    "experience": 1000
+  }
+}

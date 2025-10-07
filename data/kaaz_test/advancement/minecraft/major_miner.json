@@ -1,0 +1,260 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:deepslate_redstone_ore"
+		},
+		"title": "Major Miner",
+		"description": {"color":"dark_purple","translate":"Pick up one of every ore block"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "minecraft:story/iron_tools",	
+	"criteria": {
+		"coal_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:coal_ore"
+						]
+					}
+				]
+			}
+		},
+		"iron_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:iron_ore"
+						]
+						
+					}
+				]
+			}
+		},
+		"gold_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:gold_ore"
+						]
+						
+					}
+				]
+			}
+		},
+		"lapis_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:lapis_ore"
+						]
+						
+					}
+				]
+			}
+		},
+		"redstone_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:redstone_ore"
+						]
+						
+					}
+				]
+			}
+		},
+		"diamond_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:diamond_ore"
+						]
+						
+					}
+				]
+			}
+		},
+		"emerald_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:emerald_ore"
+						]
+						
+					}
+				]
+			}
+		},
+		"nether_quartz_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:nether_quartz_ore"
+						]
+						
+					}
+				]
+			}
+		},
+		"nether_gold_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:nether_gold_ore"
+						]
+						
+					}
+				]
+			}
+		},
+		"ancient_debris": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:ancient_debris"
+						]
+					
+					}
+				]
+			}
+		},
+		"copper_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_ore"
+						]
+						
+					}
+				]
+			}
+		},
+		"deepslate_gold_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:deepslate_gold_ore"
+						]
+						
+					}
+				]
+			}
+		},
+		"deepslate_iron_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:deepslate_iron_ore"
+						]
+						
+					}
+				]
+			}
+		},
+		"deepslate_lapis_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:deepslate_lapis_ore"
+						]
+						
+					}
+				]
+			}
+		},
+		"deepslate_diamond_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:deepslate_diamond_ore"
+						]
+						
+					}
+				]
+			}
+		},
+		"deepslate_redstone_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:deepslate_redstone_ore"
+						]
+						
+					}
+				]
+			}
+		},
+		"deepslate_coal_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:deepslate_coal_ore"
+						]
+						
+					}
+				]
+			}
+		},
+		"deepslate_copper_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:deepslate_copper_ore"
+						]
+					
+					}
+				]
+			}
+		},
+        "deepslate_emerald_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:deepslate_emerald_ore"
+						]
+						
+					}
+				]
+			}
+	}
+}
+}

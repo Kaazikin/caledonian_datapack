@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:fishing_rod"
+      },
+      "title": "Catfished",
+      "description": "Pull Kaaz with a fishing rod",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "kaaz_test:adventure/kaaz_luck",
+    "criteria": {
+      "fish_cat": {
+        "trigger": "minecraft:fishing_rod_hooked",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:player",
+            "nbt": "{UUID:[I;-315657532,-999928964,-1426833445,1916594473]}"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "fish_cat"
+      ]
+    ],
+    "rewards": {
+      "experience": 50
+    }
+  }

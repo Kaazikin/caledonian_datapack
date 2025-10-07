@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pink_harness"
+    },
+    "title": "Public Transportation",
+    "description": "Ride a Happy Ghast that already has three riders.",
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/place_dried_ghast_in_water",
+  "criteria": {
+    "ride_ghast": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "minecraft:happy_ghast",
+            "nbt": "{Passengers:[{id:\"minecraft:player\"},{id:\"minecraft:player\"},{id:\"minecraft:player\"}]}"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ride_ghast"
+    ]
+  ],
+  "rewards": {
+    "recipes": [],
+    "experience": 25
+  }
+}

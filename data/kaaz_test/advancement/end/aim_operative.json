@@ -1,0 +1,45 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:chainmail_boots"
+      },
+      "title": "AIM Operative",
+      "description": "Sprint 250km without using an elytra",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "minecraft:end/elytra",
+    "criteria": {
+      "walk_without_flying": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "type_specific": {
+              "type": "minecraft:player",
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "minecraft:sprint_one_cm",
+                  "value": {
+                    "min": 25000000
+                  }
+                },
+                {
+                  "type": "minecraft:custom",
+                  "stat": "minecraft:aviate_one_cm",
+                  "value": {
+                    "max": 0
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "experience": 69
+    }
+  }

@@ -1,0 +1,44 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:totem_of_undying"
+      },
+      "title": "The Tony Awards",
+      "description": "Die 100 times",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+      "100_deaths": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "type_specific": {
+              "type": "minecraft:player",
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "minecraft:deaths",
+                  "value": 100
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "100_deaths"
+      ]
+    ],
+    "rewards": {
+      "loot": [
+        "minecraft:entities/evoker"
+      ],
+      "experience": 100
+    }
+  }
