@@ -1,7 +1,6 @@
 {
   "pack": {
     "description": "Caledonian Stuff",
-    "pack_format": 88.0,
-    "supported_formats": [88.0, 88.0]
+    "pack_format": 88.0
   }
 }
