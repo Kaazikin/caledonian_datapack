@@ -1,0 +1,137 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:milk_bucket",
+      "components": {
+        "minecraft:enchantments": {
+          "minecraft:efficiency": 100
+        }
+      }
+    },
+    "title": "Honorary Bucket Boy",
+    "description": "Collect every type of bucket",
+    "frame": "challenge"
+  },
+  "parent": "minecraft:story/lava_bucket",
+  "criteria": {
+    "bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bucket"
+          }
+        ]
+      }
+    },
+    "cod_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cod_bucket"
+          }
+        ]
+      }
+    },
+    "salmon_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:salmon_bucket"
+          }
+        ]
+      }
+    },
+    "pufferfish_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pufferfish_bucket"
+          }
+        ]
+      }
+    },
+    "tropical_fish_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tropical_fish_bucket"
+          }
+        ]
+      }
+    },
+    "axolotl_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:axolotl_bucket"
+          }
+        ]
+      }
+    },
+    "tadpole_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tadpole_bucket"
+          }
+        ]
+      }
+    },
+    "lava_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lava_bucket"
+          }
+        ]
+      }
+    },
+    "milk_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:milk_bucket"
+          }
+        ]
+      }
+    },
+    "powder_snow_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:powder_snow_bucket"
+          }
+        ]
+      }
+    },
+    "water_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:water_bucket"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "loot": [
+      "minecraft:gameplay/fishing/treasure"
+    ],
+    "recipes": [
+      "minecraft:bucket"
+    ],
+    "experience": 3
+  }
+}

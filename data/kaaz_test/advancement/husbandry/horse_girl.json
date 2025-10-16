@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:horse_spawn_egg"
+    },
+    "title": "Horse Girl",
+    "description": "Breed a perfect horse (HP, Jump, and Speed)",
+    "frame": "challenge"
+  },
+  "parent": "minecraft:husbandry/breed_an_animal",
+  "criteria": {
+    "breed_perfect_horse": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:horse",
+          "nbt": "{attributes:[{id:\"minecraft:jump_strength\",base:1.0},{id:\"minecraft:max_health\",base:30},{id:\"minecraft:movement_speed\",base:0.3375}]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 250
+  }
+}

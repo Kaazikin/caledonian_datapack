@@ -38,12 +38,32 @@
           "nbt": "{UUID:[I;-1845322093,-39108139,-2093654678,-582198035]}"
         }
       }
+    },
+    "kill_engi": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player",
+          "nbt": "{UUID:[I;-1573750973,411582543,-1586038514,-1312191807]}"
+        }
+      }
+    },
+    "kill_ghoust": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player",
+          "nbt": "{UUID:[I;198493485,1006390819,-1111047875,875313643]}"
+        }
+      }
     }
   },
   "requirements": [
     ["kill_kaaz"],
     ["kill_twelve"],
-    ["kill_visquit"]
+    ["kill_visquit"],
+    ["kill_engi"],
+    ["kill_ghoust"]
   ],
   "rewards": {
     "experience": 2500
