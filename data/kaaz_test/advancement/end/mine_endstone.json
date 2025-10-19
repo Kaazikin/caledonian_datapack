@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "name": "visquit"
+        }
+      }
+    },
+    "title": "WHERE'S THE ENDERIUM?",
+    "description": "Mine a double chest of endstone",
+    "frame": "challenge"
+  },
+  "parent": "minecraft:end/root",
+  "criteria": {
+    "mine_endstone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:end_stone",
+                "value": {
+                  "min": 3456
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "loot": [
+      "minecraft:chests/end_city_treasure"
+    ],
+    "experience": 100
+  }
+}

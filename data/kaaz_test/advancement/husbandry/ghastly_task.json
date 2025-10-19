@@ -19,7 +19,9 @@
               {
                 "type": "minecraft:custom",
                 "stat": "minecraft:happy_ghast_one_cm",
-                "value": 2500000
+                "value": {
+                  "min": 2500000
+                }
               }
             ]
           }

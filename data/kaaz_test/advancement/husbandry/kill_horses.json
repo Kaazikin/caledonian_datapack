@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "name": "Ninja_scamp"
+        }
+      }
+    },
+    "title": "For Science. You Monster.",
+    "description": "Kill 100 horses",
+    "frame": "challenge"
+  },
+  "parent": "minecraft:husbandry/breed_an_animal",
+  "criteria": {
+    "kill_horses": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:horse",
+                "value": {
+                  "min": 100
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "loot": [
+      "minecraft:entities/horse"
+    ],
+    "experience": 250
+  }
+}
