@@ -19,7 +19,7 @@
         },
         "entity": {
           "type": "minecraft:player",
-          "nbt": "{UUID:[I;1569874289,154094525,-1164471011,128755617]}"
+          "nbt": "{Tags:[\"milkable\"]}"
         }
       }
     }
