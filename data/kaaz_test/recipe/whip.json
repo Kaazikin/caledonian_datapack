@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  i",
+    " L ",
+    "/  "
+  ],
+  "key": {
+    "i": "minecraft:iron_ingot",
+    "L": "minecraft:lead",
+    "/": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:string",
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Whip",
+        "type": "text",
+        "italic": false
+      },
+      "minecraft:custom_model_data": {
+        "strings": [
+          "whip"
+        ]
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_knockback",
+          "id": "minecraft:attack_knockback",
+          "amount": 2,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    "count": 1
+  },
+  "show_notification": false
+}

@@ -14,7 +14,7 @@
       "conditions": {
         "child": {
           "type": "minecraft:horse",
-          "nbt": "{attributes:[{id:\"minecraft:jump_strength\",base:1.0},{id:\"minecraft:max_health\",base:30},{id:\"minecraft:movement_speed\",base:0.3375}]}"
+          "nbt": "{attributes:[{id:\"minecraft:jump_strength\",base:1.0d},{id:\"minecraft:max_health\",base:30d},{id:\"minecraft:movement_speed\",base:0.3375d}]}"
         }
       }
     }
