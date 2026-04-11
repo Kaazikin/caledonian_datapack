@@ -1,0 +1,447 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_dandelion"
+    },
+    "title": "Noah's Daycare",
+    "description": "Use a golden dandelion on every baby mob.",
+    "frame": "challenge"
+  },
+  "parent": "minecraft:husbandry/breed_an_animal",
+  "criteria": {
+    "breed_armadillo": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:armadillo",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "breed_axolotl": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:axolotl",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "breed_bee": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:bee",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "breed_camel": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:camel",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "breed_cat": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:cat",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "breed_chicken": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:chicken",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "breed_cow": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:cow",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "breed_dolphin": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:dolphin",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "breed_donkey": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:donkey",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "breed_fox": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:fox",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "breed_tadpole": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:tadpole"
+        }
+      }
+    },
+    "breed_happy_ghast": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:happy_ghast",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "breed_glow_squid": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:glow_squid",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "breed_goat": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:goat",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "breed_horse": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:horse",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "breed_llama": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:llama",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "breed_mooshroom": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:mooshroom",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "breed_mule": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:mule",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "breed_nautilus": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:nautilus"
+        }
+      }
+    },
+    "breed_ocelot": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:ocelot",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "breed_panda": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:panda",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "breed_pig": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:pig",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "breed_polar_bear": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:polar_bear",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "breed_rabbit": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:rabbit",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "breed_sheep": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:sheep",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "breed_sniffer": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:sniffer",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "breed_squid": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:squid",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "breed_strider": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:strider",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "breed_trader_llama": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:trader_llama",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "breed_turtle": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:turtle",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    },
+    "breed_wolf": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:wolf",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "loot": [
+      "minecraft:blocks/gold_block"
+    ],
+    "experience": 2500
+  }
+}

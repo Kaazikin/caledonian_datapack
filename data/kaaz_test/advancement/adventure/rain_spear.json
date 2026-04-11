@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_spear"
+    },
+    "title": "Strength Before Weakness",
+    "description": "Spear an enemy in the rain.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/kill_a_mob",
+  "criteria": {
+    "rain_spear": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "type": "minecraft:player",
+        "slots": {
+          "weapon.mainhand": {
+            "items": "#minecraft:spears"
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:weather_check",
+            "raining": true
+          }
+        ]
+      }
+    }
+  }
+}
