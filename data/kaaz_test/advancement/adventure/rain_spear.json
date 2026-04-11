@@ -15,13 +15,18 @@
     "rain_spear": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "type": "minecraft:player",
-        "slots": {
-          "weapon.mainhand": {
-            "items": "#minecraft:spears"
-          }
-        },
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": "#minecraft:spears"
+                }
+              }
+            }
+          },
           {
             "condition": "minecraft:weather_check",
             "raining": true
