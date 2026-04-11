@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:spectral_arrow"
+        },
+        "title": "Airstrike",
+        "description": "Kill a player with an arrow while flying with an elytra",
+        "frame": "challenge"
+    },
+    "parent": "minecraft:adventure/shoot_arrow",
+    "criteria": {
+        "airstrike": {
+            "trigger": "minecraft:killed_by_arrow",
+            "conditions": {
+                "player": {
+                    "flags": {
+                        "is_flying": true
+                    }
+                },
+                "victims": [
+                    {
+                        "type": "minecraft:player"
+                    }
+                ]
+            }
+        }
+    }
+}
